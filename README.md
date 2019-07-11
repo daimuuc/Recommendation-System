@@ -17,4 +17,4 @@
 4、运行微信客户端  
 
 # 项目演示视屏  
-
+https://github.com/JunhaoCheng/Recommendation-System/blob/master/演示视屏.mp4
