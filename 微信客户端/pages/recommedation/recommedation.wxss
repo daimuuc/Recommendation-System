@@ -1,0 +1,25 @@
+/* pages/recommedation/recommedation.wxss */
+page {
+  background: #00BFFF;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: #FAFFF0;
+  font-size: 50rpx;
+}
+
+.view-Name {
+  color: #FFDEAD;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

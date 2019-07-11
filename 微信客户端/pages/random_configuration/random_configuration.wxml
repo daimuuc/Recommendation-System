@@ -1,0 +1,23 @@
+<!--pages/random_configuration/random_configuration.wxml-->
+<form class="container" bindsubmit='confirm'>
+  
+  <view class="title">
+    <text class="name">生成文件参数设置</text>
+  </view>
+
+  <text class="view-Name">文件中记录的个数</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="7500" auto-focus name="data_num" type='number'/>
+  </view>
+
+  <text class="view-Name">每条记录拥有音乐类型的最大个数</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="20" auto-focus name="data_max_length" type='number'/>
+  </view>
+
+  <view class='view'></view>
+  <button  class='button' formType='submit'> 确认 </button>
+  
+</form>

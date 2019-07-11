@@ -1,0 +1,5 @@
+<!--pages/recommedation/recommedation.wxml-->
+<view class="title">
+  <text class="name">推荐结果</text>
+</view>
+<text class="view-Name">{{result}}</text>

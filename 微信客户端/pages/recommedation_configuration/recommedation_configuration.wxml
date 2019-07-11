@@ -1,0 +1,41 @@
+<!--pages/recommedation_configuration/recommedation_configuration.wxml-->
+<form class="container_cn" bindsubmit='confirm'>
+  
+  <view class="title">
+    <text class="name">推荐参数设置</text>
+  </view>
+
+  <text class="view-Name">最小关系支持度值(support)</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="0.003" auto-focus name="min_support" type='digit'/>
+  </view>
+
+  <text class="view-Name">最小关系置信度值(confidence)</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="0.2" auto-focus name="min_confidence" type='digit'/>
+  </view>
+
+  <text class="view-Name">最小关系提升度值(lift)</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="3" auto-focus name="min_lift" type='digit'/>
+  </view>
+
+  <text class="view-Name">关系最大长度(max_length)</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="5" auto-focus name="max_length" type='number'/>
+  </view>
+
+  <text class="view-Name">推荐个数</text>
+  <view class="section">
+    <input class="input" placeholder-style="font-size:15px"
+    placeholder="10" auto-focus name="num" type='number'/>
+  </view>
+
+  <view class='view'></view>
+  <button  class='button' formType='submit'> 确认 </button>
+  
+</form>

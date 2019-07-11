@@ -1,0 +1,10 @@
+<!--pages/select/select.wxml-->
+<!--pages/startgame/startgame.wxml-->
+<view class="container_cn">
+
+  <block>
+    <button class="button" hover-class="hover" bindtap="random_file">随机文件</button>
+    <button class="button" hover-class="hover" bindtap="custom_file">自定义文件</button>
+  </block>
+
+</view>

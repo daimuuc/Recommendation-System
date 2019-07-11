@@ -1,0 +1,6 @@
+<!--pages/upload/upload.wxml-->
+<view class="container">
+
+  <button class="button" hover-class="hover" bindtap="upload_file">上传文件   </button>
+
+</view>

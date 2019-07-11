@@ -1,0 +1,30 @@
+/* pages/select/select.wxss */
+page {
+  background: #00BFFF;
+  height: 100%;
+}
+
+/* 按下变颜色 */
+.hover {
+  background:  rgb(236, 179, 156);
+}
+
+.button {
+  width: 400rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+.container_cn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 450rpx 0;
+  box-sizing: border-box;
+}

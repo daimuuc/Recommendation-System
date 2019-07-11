@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recommedation_configuration/recommedation_configuration",
+    "pages/select/select",
+    "pages/upload/upload",
+    "pages/random_configuration/random_configuration",
+    "pages/recommedation/recommedation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTitleText": "音乐类型推荐系统",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,61 @@
+/* pages/recommedation_configuration/recommedation_configuration.wxss */
+page {
+  background: #00BFFF;
+  height: 100%;
+}
+
+.button {
+  width: 250rpx;
+  height: 90rpx;
+  marigin:0rpx auto;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+.section{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 35px;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+.input{
+  padding-left: 10px; 
+  height: 30px; 
+}
+
+.title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: #FAFFF0;
+  font-size: 50rpx;
+}
+
+.container_cn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.view-Name {
+  color: #FFDEAD;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view {
+  margin: 40rpx;
+}
